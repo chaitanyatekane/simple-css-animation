@@ -42,6 +42,7 @@ p {
     position: absolute;
     animation: programmer1 5s linear;
     animation-delay: 0s;
+    animation-iteration-count: 2;
 }
 .programmer-pic2 {
     width: 100px;
@@ -51,6 +52,7 @@ p {
     position: absolute;
     animation: programmer2 5s linear;
     animation-delay: 0s;
+    animation-iteration-count: 2;
 }
 .coding-pc-pic-1 {
     height: 100px;
@@ -61,6 +63,7 @@ p {
     position: absolute;
     animation: codingpic1 5s linear;
     animation-delay: 0.3s;
+    animation-iteration-count: 2;
 }
 .coding-pc-pic-2 {
     width: 100px;
@@ -70,6 +73,7 @@ p {
     position: absolute;
     animation: codingpic2 5s linear;
     animation-delay: 0.3s;
+    animation-iteration-count: 2;
 }
 @keyframes codingpic1 {
     from {
