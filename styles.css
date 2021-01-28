@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.heading {
+    position: relative;
+}
+.box1 {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+    margin-top: 65px;
+    overflow: hidden;
+    background-color: rgb(118, 57, 218);
+    transform: translateX(-2px);
+}
+.box2 {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+    margin-top: 100px;
+    overflow: hidden;
+    background-color: rgb(118, 57, 218);
+    transform: translateX(-2px);
+}
+.programmer-pic1 {
+    width: 100px;
+    height: 100px;
+    left: 609px;
+    top: 50px;
+    position: absolute;
+    animation: programmer1 5s linear;
+    animation-delay: 0s;
+}
+.programmer-pic2 {
+    width: 100px;
+    height: 100px;
+    left: 609px;
+    top: 50px;
+    position: absolute;
+    animation: programmer2 5s linear;
+    animation-delay: 0s;
+}
+.coding-pc-pic-1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: -16px;
+    top: 38px;
+    position: absolute;
+    animation: codingpic1 5s linear;
+    animation-delay: 0.3s;
+}
+.coding-pc-pic-2 {
+    width: 100px;
+    height: 100px;
+    right: -14px;
+    top: 55px;
+    position: absolute;
+    animation: codingpic2 5s linear;
+    animation-delay: 0.3s;
+}
+@keyframes codingpic1 {
+    from {
+        left: -16px;
+        top: 38px;
+    } 
+    to {
+        top: 38px;
+        left: 110%;
+    }
+}
+@keyframes codingpic2 {
+    from {
+        right: 2px;
+        top: 55px;
+    } 
+    to {
+        top: 38px;
+        right: 110%;
+    }
+}
+@keyframes programmer1 {
+    from {
+        left: 594px;
+        top: 50px;
+    } 
+    to {
+        top: 50px;
+        left: -50px;
+    }
+}
+@keyframes programmer2 {
+    from {
+        left: 594px;
+        top: 50px;
+    } 
+    to {
+        left: 99%;
+        top: 50px;
+    }
+}
